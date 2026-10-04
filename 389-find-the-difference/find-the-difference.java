@@ -16,6 +16,6 @@ class Solution {
             if(freq[i]!=0)
                 return (char)(97+i);
         }
-        return 'a';
+        throw new RuntimeException("No difference found");
     }
 }
