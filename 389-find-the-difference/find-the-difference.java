@@ -4,12 +4,12 @@ class Solution {
 
         //for s array
         for(int i=0; i<s.length(); i++){
-            freq[s.charAt(i)-97]+=1;
+            freq[s.charAt(i)-'a']+=1;
         }
 
         //for t array
         for(int i=0; i<t.length(); i++){
-            freq[t.charAt(i)-97]-=1;
+            freq[t.charAt(i)-'a']-=1;
         }
 
         for(int i=0; i<26; i++){
