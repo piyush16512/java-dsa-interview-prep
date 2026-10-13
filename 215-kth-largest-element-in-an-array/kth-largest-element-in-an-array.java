@@ -8,6 +8,8 @@ class Solution {
                 min=n;
         }
 
+        //used hashing mechanism to solve this problem
+
         int[] freq = new int[max-min+1];
 
         for(int n: nums){
@@ -19,6 +21,10 @@ class Solution {
             if(k<=0)
                 return i+min;
         }
+
+        //as for every test case, we will get some output that's why i am returning -1
+        //because this line will never execute otherwise we can throw an exception
+        //for better readibility of the code
         return -1;
     }
 }
