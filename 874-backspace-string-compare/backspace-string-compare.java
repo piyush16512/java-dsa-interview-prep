@@ -8,8 +8,7 @@ class Solution {
     public String getResult(String str){
         //we can use Stack also but 
         //here we have used StringBuilder
-        //due to several methods available 
-        //in stringBuilder
+        //due to several methods available
         StringBuilder sb = new StringBuilder();
         for(int i=0; i<str.length(); i++){
             char c = str.charAt(i);
