@@ -6,7 +6,7 @@ class Solution {
     }
 
     public String getResult(String str){
-        //we can use Stack also but 
+        //we can use Stack also but  
         //here we have used StringBuilder
         StringBuilder sb = new StringBuilder();
         for(int i=0; i<str.length(); i++){
