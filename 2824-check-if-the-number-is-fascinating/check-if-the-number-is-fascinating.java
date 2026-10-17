@@ -6,7 +6,6 @@ class Solution {
             char c = num.charAt(i);
             freq[c - 48]++;
         }
-            //79815962394
         if(freq[0]!=0) return false;
         for(int i=1; i<10; i++){
             if(freq[i]!=1)
