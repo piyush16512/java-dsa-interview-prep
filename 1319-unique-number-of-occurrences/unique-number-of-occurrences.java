@@ -11,8 +11,8 @@ class Solution {
 
         int[] freq = new int[max-min+1];
 
-        for(int i=0; i<arr.length; i++){
-            freq[arr[i]-min]++;
+        for(int n: arr){
+            freq[n-min]++;
         }
 
         HashSet<Integer> set = new HashSet<>();
